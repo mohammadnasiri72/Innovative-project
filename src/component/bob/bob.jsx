@@ -1,6 +1,5 @@
 // project 1
 import { useState } from "react";
-import "./style.css"
 
 function Bob() {
   const [isFocusUserName , setIsFocusUserName] = useState(false)

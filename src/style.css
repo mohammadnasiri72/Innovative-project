@@ -6,5 +6,8 @@ body{
     text-align: center;
     direction: rtl;
 }
-
+.main-box-bob{
+    background-image: url('./../public/images/bgb.jpg');
+    direction: ltr;
+}
 
