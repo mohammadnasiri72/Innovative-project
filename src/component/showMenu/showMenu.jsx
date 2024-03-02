@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import { FaHome, FaUser } from "react-icons/fa";
+import { FaHome } from "react-icons/fa";
 import { FiPlus } from "react-icons/fi";
+import { GrContact } from "react-icons/gr";
 import { LuContact } from "react-icons/lu";
 import { MdContactless } from "react-icons/md";
 
@@ -63,7 +64,7 @@ export default function ShowMenu() {
           }}
           className="w-16 h-16 rounded-full absolute top-0 right-0 duration-300 flex justify-center items-center cursor-pointer bg-slate-800 text-white"
         >
-          <FaUser className="text-2xl" />
+          <GrContact className="text-2xl" />
         </div>
       </div>
     </div>
