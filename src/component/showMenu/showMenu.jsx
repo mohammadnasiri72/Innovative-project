@@ -4,6 +4,7 @@ import { FiPlus } from "react-icons/fi";
 import { LuContact } from "react-icons/lu";
 import { MdContactless } from "react-icons/md";
 import { AiTwotoneContacts } from "react-icons/ai";
+import { RiContactsFill } from "react-icons/ri";
 
 export default function ShowMenu() {
   const [isShowMenu, setIsShowMenu] = useState(false);
@@ -64,7 +65,7 @@ export default function ShowMenu() {
           }}
           className="w-16 h-16 rounded-full absolute top-0 right-0 duration-300 flex justify-center items-center cursor-pointer bg-slate-800 text-white"
         >
-          <FaUser className="text-2xl" />
+          <RiContactsFill  className="text-2xl" />
         </div>
       </div>
     </div>
