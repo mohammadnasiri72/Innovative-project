@@ -3,6 +3,7 @@ import { FaHome, FaUser } from "react-icons/fa";
 import { FiPlus } from "react-icons/fi";
 import { LuContact } from "react-icons/lu";
 import { MdContactless } from "react-icons/md";
+import { AiTwotoneContacts } from "react-icons/ai";
 
 export default function ShowMenu() {
   const [isShowMenu, setIsShowMenu] = useState(false);
@@ -39,7 +40,7 @@ export default function ShowMenu() {
           }}
           className="w-16 h-16 rounded-full absolute top-0 right-0 duration-300 flex justify-center items-center cursor-pointer bg-slate-800 text-white"
         >
-          <LuContact className="text-2xl" />
+          <AiTwotoneContacts className="text-2xl" />
         </div>
         <div
           style={{
