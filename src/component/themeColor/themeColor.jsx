@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import PalletColor from './palletColor'
 
 export default function ThemeColor() {
-    const [color , setColor] = useState('d')
+    const [color , setColor] = useState('test1')
     console.log(color);
   return (
     <>
