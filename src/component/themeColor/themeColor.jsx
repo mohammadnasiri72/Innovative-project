@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import PalletColor from './palletColor'
 
 export default function ThemeColor() {
-    const [color , setColor] = useState('gh')
+    const [color , setColor] = useState('')
   return (
     <>
         <div className='h-screen flex justify-center items-center flex-col'>
